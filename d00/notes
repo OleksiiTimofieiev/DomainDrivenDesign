@@ -58,6 +58,15 @@
 - domains should be segragated
 - Problem Space = Core Domain + Sub Domains(Generic == logger, Supporting == help core domain)
 
+--- Context Map:
+
+- partnership
+- shared kernel => different commands can update it, has to be something small
+- Customer-Supplier (upstream - downstream)
+- conformist == use others model, sample: logging framwork
+- open-host service == understandable API (published language)
+- separate ways (separate contexts, no interactions)
+
 
 
 
