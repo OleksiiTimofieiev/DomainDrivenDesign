@@ -18,6 +18,7 @@
 - process manager
 - JSON can solve the necessity of the ORM; ORM dictate the rules of the design
 - building microservices Newman
+- push notification to the UI || request if the data was restored
 
 ***************************************************** new questions
 
