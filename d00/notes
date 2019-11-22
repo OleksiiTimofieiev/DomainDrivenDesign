@@ -1,0 +1,27 @@
+***************************************************** general
+
+- patterns of architecture Fauler
+- Vernon DDD red book
+- self-documenting code (example: function names describe the context)
+- declarative(all code is visible) vs imperative(code in the func)
+- BDD and given when then principle
+- core domain should be found
+- different notations
+- elegant objects == book
+- struct of the class will affect on the future implementations
+- adapter will redirect to the new version
+
+***************************************************** new questions
+
+- transactions script
+- CQRS (differentiation of models) && event sources
+- CRUD
+
+***************************************************** core concepts
+
+- ubiquitous language == language of the Domain;
+
+- bounded context == divide the solution to the bounded context;
+- context map == descriptions of relationship beetween bounded context;
+
+- tactical design == modelling within one bounded context;
