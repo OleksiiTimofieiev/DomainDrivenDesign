@@ -1,1 +1,1 @@
-# DomainDrivenDesign
+# DomainDrivenDesign training
