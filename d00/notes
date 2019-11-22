@@ -48,6 +48,17 @@
 - tell don`t ask
 - change of the aggregate => event to signal the change
 
+--- CQS == command query separation:
+
+- actions and queries in different methods;
+
+--- Strategic Design:
+
+- use simultaneously
+- domains should be segragated
+- Problem Space = Core Domain + Sub Domains(Generic == logger, Supporting == help core domain)
+
+
 
 
 
