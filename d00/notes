@@ -10,12 +10,25 @@
 - elegant objects == book
 - struct of the class will affect on the future implementations
 - adapter will redirect to the new version
+- Clepman: designing data intensive applications
+- transaction consistence
+- entity == id; value == keep values
+- immutable = new object equals current object
+- think for new feature == do not break encapsulation
+- process manager
+- JSON can solve the necessity of the ORM; ORM dictate the rules of the design
 
 ***************************************************** new questions
 
 - transactions script
 - CQRS (differentiation of models) && event sources
 - CRUD
+- tolerant reader
+- avra, protocol buffers [evolution of the schema ] == serialization instruments / patterns
+- concurrency for CRUD with SQL
+- event sourcing == logging
+- data layer access: sample for concurrency transactions === transactions
+- ORM || dapper (speed)
 
 ***************************************************** core concepts
 
@@ -24,4 +37,22 @@
 - bounded context == divide the solution to the bounded context;
 - context map == descriptions of relationship beetween bounded context;
 
+--- tactical level:
+
 - tactical design == modelling within one bounded context;
+- tolerant reader == use directly mapped parameter;
+
+--- aggregate:
+
+- aggregate [Aggregate root => for clients to be used], sample - User
+- tell don`t ask
+- change of the aggregate => event to signal the change
+
+
+
+
+
+
+
+
+
